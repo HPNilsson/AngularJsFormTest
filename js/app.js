@@ -9,6 +9,31 @@ angular.module('app', ['dynform'])
             "type": "text",
             "label": "text",
             "placeholder": "text"
+          },
+            "date": {
+            "type": "date",
+            "label": "date",
+            "placeholder": "date"
+          },
+            "datetime": {
+            "type": "datetime",
+            "label": "datetime",
+            "placeholder": "datetime"
+          },
+          "datetime-local": {
+            "type": "datetime-local",
+            "label": "datetime-local",
+            "placeholder": "datetime-local"
+          },
+          "email": {
+            "type": "email",
+            "label": "email",
+            "placeholder": "email"
+          },
+          "month": {
+            "type": "month",
+            "label": "month",
+            "placeholder": "month"
           }
         }
       }
