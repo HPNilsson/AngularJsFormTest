@@ -1,3 +1,6 @@
+$( document ).ready();
+
+
 angular.module('app', ['dynform'])
   .controller('AppCtrl', ['$scope', function ($scope) {
     $scope.stdFormTemplate = {
@@ -53,3 +56,4 @@ angular.module('app', ['dynform'])
       return angular.toJson(temp, true);
     };
   });
+

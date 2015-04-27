@@ -526,3 +526,17 @@ angular.module('dynform', [])
   }]);
 
 /*  End of dynamic-forms.js */
+$("label").addClass("col-xs-12 col-sm-12 col-md-10 col-lg-6 col-xl-4");
+
+$("input").on("input", function() {
+  $(this).addClass("color");
+});
+
+  $( "table" ).on( "click", "td", function() {
+  $( this ).toggleClass( "chosen" );
+});
+
+//   function notify() {
+//   alert( "clicked" );
+// }
+// $( "button" ).on( "click", notify );
