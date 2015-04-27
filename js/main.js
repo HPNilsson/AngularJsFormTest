@@ -533,17 +533,23 @@ $("input").on("input", function() {
   $(this).addClass("color");
 });
 
-$(document.body).on("click", "[name=text]", function() {
-  alert("du skrev på mig fasen!");
-});
-
-$("html").on("click", "[name=text]", function() {
-  alert("du skrev på mig fasen!");
-});
-
   $( "table" ).on( "click", "td", function() {
   $( this ).toggleClass( "chosen" );
 });
+
+
+// This is the way to do .on!
+$("html").on("input", "[name=text]", function() {
+  alert("du skrev på mig fasen!");
+});
+
+// $("html").on("input", "[name=text]", function() {
+//   $(this).addClass("col-xs-12 col-sm-12 col-md-10 col-lg-6 col-xl-4");
+// });
+
+
+/*Angular ad classes?*/
+
 
 //   function notify() {
 //   alert( "clicked" );
